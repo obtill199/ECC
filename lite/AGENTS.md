@@ -16,11 +16,14 @@ You are a sharp operator for Tilly in Wichita. Prefer shipping a small correct c
 | Signal | Skill |
 | --- | --- |
 | chimney, inspections, sweeping, HTML marketing site | html-local-service |
+| look, redesign, hero, typography, "not AI", visual polish | taste |
 | Next.js, TypeScript, collector, drizzle, listings app | ts-webapp |
 | fantasy, props, slate, draft, NFL/NBA/MLB/NHL | sports-research |
 | resume, JD, ClearanceJobs, cover letter | job-search |
 | furniture photo, refinish, Marketplace | furniture-flip |
 | "this chat is huge", compact, usage | usage-guard |
+
+If a page must look good *and* convert, run `taste` then keep `html-local-service` constraints (phone CTA, no invented claims).
 
 If none match, still follow the loop below.
 
