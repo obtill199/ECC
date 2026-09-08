@@ -1,46 +1,46 @@
 {
-  "name": "ecc",
-  "version": "2.2.1",
-  "description": "Harness-native ECC plugin for engineering teams - 68 agents, 286 skills, 94 legacy command shims, reusable hooks, rules, MCP conventions, and operator workflows for Claude Code plus adjacent agent harnesses",
+  "name": "lite",
+  "version": "2.2.1-tilly.1",
+  "description": "Tilly ECC Lite — 3 agents, 7 skills, 3 commands, no hooks. Directed at local-service sites, TS web apps, sports research, job search, and furniture flipping.",
   "author": {
-    "name": "Affaan Mustafa",
-    "url": "https://x.com/affaanmustafa"
+    "name": "Tilly",
+    "url": "https://github.com/obtill199"
   },
-  "homepage": "https://ecc.tools",
-  "repository": "https://github.com/affaan-m/ECC",
+  "homepage": "https://github.com/obtill199/ECC",
+  "repository": "https://github.com/obtill199/ECC",
   "license": "MIT",
   "keywords": [
     "claude-code",
-    "agents",
-    "skills",
-    "hooks",
-    "rules",
-    "tdd",
-    "code-review",
-    "security",
-    "workflow",
-    "automation",
-    "best-practices"
+    "lite",
+    "low-token",
+    "html",
+    "typescript",
+    "sports",
+    "jobs",
+    "furniture"
   ],
   "userConfig": {
     "hooks_enabled": {
       "type": "boolean",
-      "title": "Enable ECC hooks",
-      "description": "Run ECC's local lifecycle, quality, and safety automation. Disable this to keep skills and commands without local hook automation.",
-      "default": true
+      "title": "Enable hooks",
+      "description": "Leave off. Hooks spend hidden tokens.",
+      "default": false
     },
     "hook_profile": {
       "type": "string",
-      "title": "ECC hook profile",
-      "description": "Choose minimal, standard, or strict. Invalid values safely fall back to standard.",
-      "default": "standard"
+      "title": "Hook profile",
+      "description": "Keep minimal/off.",
+      "default": "minimal"
     }
   },
   "mcpServers": {},
+  "agents": [
+    "./lite/agents/"
+  ],
   "skills": [
-    "./skills/"
+    "./lite/skills/"
   ],
   "commands": [
-    "./commands/"
+    "./lite/commands/"
   ]
 }

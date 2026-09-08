@@ -1,45 +1,33 @@
 {
-  "name": "ecc",
+  "name": "tilly-ecc",
   "owner": {
-    "name": "Affaan Mustafa",
-    "email": "me@affaanmustafa.com"
+    "name": "Tilly",
+    "email": ""
   },
   "metadata": {
-    "description": "Harness-native ECC skills, hooks, rules, MCP conventions, and operator workflows"
+    "description": "Tilly ECC Lite marketplace — low-token personal harness"
   },
   "plugins": [
     {
-      "name": "ecc",
+      "name": "lite",
       "source": "./",
-      "description": "Harness-native ECC operator layer - 68 agents, 286 skills, 94 legacy command shims, reusable hooks, rules, selective install profiles, and production-ready workflows for Claude Code, Codex, OpenCode, Cursor, and related agent harnesses",
-      "version": "2.2.1",
+      "description": "3 agents, 7 skills, 3 commands, hooks off. For HTML service sites, TS apps, sports, jobs, furniture.",
+      "version": "2.2.1-tilly.1",
       "author": {
-        "name": "Affaan Mustafa",
-        "email": "me@affaanmustafa.com"
+        "name": "Tilly"
       },
-      "homepage": "https://ecc.tools",
-      "repository": "https://github.com/affaan-m/ECC",
+      "homepage": "https://github.com/obtill199/ECC",
+      "repository": "https://github.com/obtill199/ECC",
       "license": "MIT",
       "keywords": [
-        "agents",
-        "skills",
-        "hooks",
-        "commands",
-        "tdd",
-        "code-review",
-        "security",
-        "best-practices"
+        "lite",
+        "low-token",
+        "workflow"
       ],
       "category": "workflow",
       "tags": [
-        "agents",
-        "skills",
-        "hooks",
-        "commands",
-        "tdd",
-        "code-review",
-        "security",
-        "best-practices"
+        "lite",
+        "low-token"
       ],
       "strict": false
     }
